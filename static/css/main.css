@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto 0 auto;
+    width: 1000px;
+}
+body {
+    background-color: #eee;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    
+    line-height: 100px;
+}
+ul li a{
+    word-spacing: -8px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    color: #1e1e1e;
+    padding: 0 20px;
+}
+ul li a:hover{
+    color: red;
+}
+.homepgimg{
+    width: 100%;
+    height: 500px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 30px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    line-height: 35px;
+  }
+  
+.button1 {
+    background-color: white;
+    color: #8c1937;
+}
+  
+.button1:hover {
+    background-color: #8c1937;
+    color: white;
+}
+.heading{
+    font-size: 80px;
+    color: #8c1937;
+}
+.logo{
+    margin: 0;
+    font-size: 1.7em;
+    color: blackf;
+    text-transform: uppercase;
+    float: right;
+    
+    line-height: 100px;
+}
+box {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+.info{
+    font-size: 23px;
+    color: #505050;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: #212329;
+    padding-bottom: 4rem;
+
+}
+.footer-header-container{
+    width: 80%;
+    height: 30vh;
+    background-color: #212329;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+.footer-heading a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+}
+.footer-email-form{
+    margin-bottom: 2rem;
+}
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#footer-email::placeholder{
+    color: lightgray;
+}
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FF0000;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: #337AF1;
+    transition: all 0.4s ease-out; 
+}
+.infotab{
+    padding-bottom: 200px;
+}
+form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+form input[type="radio"]{
+    display: none;
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width:100px;
+    color: black;
+    
+}
